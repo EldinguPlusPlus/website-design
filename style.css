@@ -1,0 +1,138 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li {
+    list-style: none;
+    margin: 0 20px;
+    color: #b2b1b1;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #b2b1b1;
+}
+.logo img {
+    width: 300px;
+    margin-top: -150px;
+    margin-right: 48px;
+}
+.active{
+    color: #00ff21 !important;
+}
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: #fff;
+}
+.app-text{
+    width: 50%;
+    float: left;
+}
+.app-text h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+.app-text p{
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: gainsboro;
+}
+.app-picture{
+    width: 50%;
+    float: right;
+}
+.app-picture img{
+    width: 75%;
+    margin-top: -20px;
+    padding-left: 150px;
+    border-radius: 25px;
+}
+.steam-btn-home {
+    top: 220px;
+    right: 83%;
+    position: absolute;
+    text-decoration: none;
+    color: #b2b1b1;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#0026ff, #0026ff),radial-gradient(circle at top left,#00ff21, #b6ff00);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.steam-btn-home span{
+    display: block;
+    padding: 8px 22px;
+}
+.oculus-btn-home {
+    top: 220px;
+    right: 60%;
+    position: absolute;
+    text-decoration: none;
+    color: #b2b1b1;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#0026ff, #0026ff),radial-gradient(circle at top left,#00ff21, #b6ff00);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.oculus-btn-home span {
+    display: block;
+    padding: 8px 22px;
+}
+.banner .profile .anonymous .fa-solid{
+    font-size: 200px;
+    color: green !important;
+}
+.banner .profile {
+    margin: 50px;
+    color: #fff;
+}
+.banner .profile .anonymous h1{
+    margin-left: 22%;
+    margin-bottom: 10px;
+    margin-top: -200px;
+}
+.banner .profile .anonymous p{
+    margin-left: 22%;
+}
+.banner .profile .hob .fa-solid {
+    font-size: 200px;
+    color: green !important;
+    margin-top: 200px;
+}
+.banner .profile .hob h1 {
+    margin-left: 22%;
+    margin-bottom: 10px;
+    margin-top: -200px;
+}
+.banner .profile .hob p {
+    margin-left: 22%;
+}
+.banner .profile .hob img{
+    width: 200px;
+    margin-top: 200px;
+    border-radius: 50%;
+}
+.banner .profile .anonymous img{
+    width: 200px;
+    border-radius: 50%;
+}
